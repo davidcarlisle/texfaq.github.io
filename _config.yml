@@ -1,16 +1,9 @@
 exclude: ['CONTRIBUTING.md', 'LICENSE.md', 'README.md']
 
 plugins:
-<<<<<<< HEAD
- - jekyll-feed
- - jekyll-redirect-from
- - jekyll-seo-tag
-theme: jekyll-theme-minimal
-=======
   - jekyll-redirect-from
 
 theme: jekyll-theme-minimal
 
 title: The TeX FAQ
 description: Frequently Asked Question List for TeX
->>>>>>> upstream/master
