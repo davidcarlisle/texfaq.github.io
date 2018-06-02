@@ -4,3 +4,4 @@ plugins:
  - jekyll-feed
  - jekyll-redirect-from
  - jekyll-seo-tag
+theme: jekyll-theme-minimal
