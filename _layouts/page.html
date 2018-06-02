@@ -2,11 +2,14 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>"}}</h1>
 
 {{content}}
 
+{% if page.path contains "FAQ-" %}
 <small>FAQ ID: {{ page.path | remove_first: "FA" | remove_first: ".md" }}</small>
+<small>Last updated: {{ page.date "%Y-%m-%d" }}
+{% endif %}
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
