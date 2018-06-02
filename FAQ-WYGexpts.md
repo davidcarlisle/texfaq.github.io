@@ -6,11 +6,6 @@ redirect_from: /FAQ-wygexpts
 date: 2018-05-24
 ---
 
-<<<<<<< HEAD
-# The TeX document preparation environment
-
-=======
->>>>>>> upstream/master
 ''[Why TeX is not WYSIWYG](FAQ-notWYSIWYG)''
 outlines the reasons (or excuses) for the huge disparity of user
 interface between ''typical'' TeX environments and commercial word

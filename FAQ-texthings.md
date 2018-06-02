@@ -85,11 +85,6 @@ that you are likely to encounter:
   - Eplain&nbsp;&mdash; Extended Plain TeX (executable: `eplain`)
   See
   [What is Eplain?](FAQ-eplain).
-<<<<<<< HEAD
-
-## Modified `tex` executables
-=======
->>>>>>> upstream/master
 
 The original `tex` executable was produced in the late 1970s
 (cf.&nbsp;[What is TeX?](FAQ-whatTeX)) and consequently

@@ -5,11 +5,6 @@ permalink: /FAQ-maillistsstar
 date: 2016-08-18
 ---
 
-<<<<<<< HEAD
-# Specialist mailing lists
-
-=======
->>>>>>> upstream/master
 The previous question, ''[getting help](FAQ-gethelp)'', talked of
 the two major forums in which (La)TeX, MetaFont and MetaPost are
 discussed; however, these aren't the only ones available.

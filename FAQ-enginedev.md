@@ -18,13 +18,6 @@ project in [&epsilon;-TeX](FAQ-etex): these additions are available in all
 current engines. [pdfTeX](FAQ-pdftex) added a range of new primitives, and
 many these have also been taken up by other engine developers.
 
-<<<<<<< HEAD
-## Active projects
-
-### pdfTeX
-
-=======
->>>>>>> upstream/master
 [pdfTeX](FAQ-pdftex) was developed by Hàn Thế Thành,
 incorporating the ability to create PDF output directly into the TeX engine.
 Although originally developed in parallel, pdfTeX today includes the
@@ -45,11 +38,6 @@ in the hands of a group of [pdfTeX maintainers](http://www.pdftex.org) (which
 includes Thành); the group has managed to maintain a stable platform for
 general use.
 
-<<<<<<< HEAD
-### XeTeX
-
-=======
->>>>>>> upstream/master
 [XeTeX](FAQ-xetex), originally developed by Jonathan Kew, a Unicode TeX
 engine which is able to load system fonts using the [HarfBuzz]() library, which
 is accomplished by an extended syntax to the `\font` primitive. It builds on

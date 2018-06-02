@@ -6,11 +6,6 @@ permalink: /FAQ-complist
 date: 2014-06-10
 ---
 
-<<<<<<< HEAD
-# How to adjust list spacing
-
-=======
->>>>>>> upstream/master
 [Lamport's book](FAQ-latex-books) lists various
 parameters for the layout of list (things like `\topsep`,
 `\itemsep` and `\parsep`), but fails to mention that they're set
