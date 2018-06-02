@@ -1,4 +1,4 @@
-	---
+---
 title: The TeX Frequently Asked Question List
 permalink: /
 redirect_from: /faq
