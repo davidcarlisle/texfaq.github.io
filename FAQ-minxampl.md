@@ -5,8 +5,11 @@ permalink: /FAQ-minxampl
 date: 2014-06-10
 ---
 
+<<<<<<< HEAD
 # How to make a ''minimum example''
 
+=======
+>>>>>>> upstream/master
 [Our advice on asking questions](FAQ-askquestion)
 suggests that you prepare a ''minimum example'' (also commonly known
 as a ''_minimal_ example'') of failing behaviour,

@@ -5,8 +5,11 @@ permalink: /FAQ-tds-zip
 date: 2014-06-10
 ---
 
+<<<<<<< HEAD
 # Ready-built installation files on the archive
 
+=======
+>>>>>>> upstream/master
 The [TDS](FAQ-tds) is a simple structure, and almost all
 files can be installed simply by putting them in the ''right'' place,
 and updating a single index.  (Note, this simple idea typically

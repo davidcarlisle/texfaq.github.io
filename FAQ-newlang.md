@@ -6,8 +6,6 @@ permalink: /FAQ-newlang
 date: 2014-06-10
 ---
 
-# Using a new language with Babel
-
 [`Babel`](https://ctan.org/pkg/Babel) is capable of working with a large range of
 languages, and a new user often wants to use a language that her
 TeX installation is not set up to employ.  Simply asking Babel to
@@ -107,7 +105,7 @@ texconfig hyphen latex
 
   just as for a pre-v2.0 system.
 
-*_Caveat_:* It is (just) possible that
+**_Caveat_**: It is (just) possible that
 your TeX system may run out of ''pattern memory'' while generating
 the new format.  Most TeX implementations have fixed-size arrays
 for storing the details of hyphenation patterns, but although their

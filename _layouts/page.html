@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{{content}}
+
+<small>FAQ ID: {{ page.path | remove_first: "FA" | remove_first: ".md" }}</small>
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
