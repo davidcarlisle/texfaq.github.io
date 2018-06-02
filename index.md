@@ -1,4 +1,4 @@
----
+	---
 title: The TeX Frequently Asked Question List
 permalink: /
 redirect_from: /faq
@@ -46,7 +46,7 @@ Based on https://github.com/codinfox/codinfox-lanyon/blob/master/blog/category.h
   {%- assign sorted = site.pages | sort: 'title' -%}
   {%- for page in sorted -%}
   {%- if page.category contains ct %}
-  <li><a href="{{ page.url }}">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" | strip_newlines }}</a></li>
+  <li><a href="{{ page.url |replace:'/FAQ','FAQ' }}">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" | strip_newlines }}</a></li>
   {%- endif -%}
   {%- endfor %}
 </ul>
