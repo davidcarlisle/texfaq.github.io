@@ -34,7 +34,7 @@ Based on https://github.com/codinfox/codinfox-lanyon/blob/master/blog/category.h
 
 
 <h2 id="question-categories">Question Categories</h2>
-<ul class="categories">
+<ul class="categories zz">
 {%- for ct in cats %}
   <li><a href="#{{ ct }}"> {{ ct | capitalize }} </a></li>
 {%- endfor %}
