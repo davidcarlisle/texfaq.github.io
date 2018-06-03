@@ -31,12 +31,45 @@ Based on https://github.com/codinfox/codinfox-lanyon/blob/master/blog/category.h
 {%- endif- %}
 {%- endfor -%}
 
+{%- assign rawtags = "" -%}
+{%- for page in site.pages -%}
+{%- assign ttags = page.tags | join:'|' | append:'|' -%}
+{%- assign rawtags = rawtags | append:ttags -%}
+{%- endfor -%}
+
+{%- assign rawtags = rawtags | split:'|' | sort -%}
+
+{%- assign tags = "" -%}
+
+{%- for tag in rawtags -%}
+{%- if tag != "" -%}
+
+{%- if tags == "" -%}
+{%- assign tags = tag | split:'|' -%}
+{%- endif -%}
+
+{%- unless tags contains tag -%}
+{%- assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' -%}
+{%- endunless -%}
+{%- endif -%}
+{%- endfor -%}
+
 <h2 id="question-categories">Question Categories</h2>
 <ul class="categories">
 {%- for ct in cats %}
   <li><a href="#{{ ct }}"> {{ ct | capitalize }} </a></li>
 {%- endfor %}
 </ul>
+
+<h2 id="question-categories">Question Tags</h2>
+<ul class="tags">
+{%- for tag in tags %}
+  <li><a href="tags#{{ tag }}"> {{ tag | capitalize }} </a></li>
+{%- endfor %}
+</ul>
+
+
+
 
 {% for ct in cats %}
 <h2 id="{{ ct }}">{{ ct | capitalize }}</h2>
