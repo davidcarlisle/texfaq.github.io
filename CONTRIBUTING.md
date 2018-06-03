@@ -72,11 +72,11 @@ the FAQ useful. There are a few things to watch out for
   some instructions of its own there. To turn this off, surround the relevant
   parts of your source with!!
   
-  `<!-- {``% raw %} -->`
+  `<!-- {%` ` raw %} -->`
 
   and
 
-  `<!-- {``% endraw %} -->`
+  `<!-- {%` ` endraw %} -->`
 
 
 
