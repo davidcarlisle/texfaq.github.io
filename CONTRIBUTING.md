@@ -70,13 +70,13 @@ the FAQ useful. There are a few things to watch out for
 - The Jekyll 'back-end' used by GitHub Pages is somewhat picky about unbalanced
   braces (`{` and `}`), even in code blocks. That's because it is looking for
   some instructions of its own there. To turn this off, surround the relevant
-  parts of your source with!!3
+  parts of your source with!!4
   
-  <code><!-- {% raw %} --></code>
+  <code>&lt;!-- {% raw %} --&gt;</code>
 
   and
 
-  <code><!-- {% endraw %} --></code>
+  <code>&lt;!-- {% endraw %} --&gt;</code>
 
 
 
