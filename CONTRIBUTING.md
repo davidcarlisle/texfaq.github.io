@@ -71,14 +71,17 @@ the FAQ useful. There are a few things to watch out for
   braces (`{` and `}`), even in code blocks. That's because it is looking for
   some instructions of its own there. To turn this off, surround the relevant
   parts of your source with
+  <!-- {% raw %} -->
   ```
-  <!-- &#x7b;% raw %&#x7d; -->
+  <!-- {% raw %} -->
   ```
   and
   ```
-  <!-- &#x7b;% endraw %&#x7d; -->
+  <!-- {% endraw %} -->
   ```
-  (Typically these will go just before and after the <code>```</code> lines.)
+  <!-- {% endraw %} -->
+
+(Typically these will go just before and after the <code>```</code> lines.)
 
 - Only use block quotes for real quotations: use code markup for terminal
   output and similar
