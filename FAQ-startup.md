@@ -5,6 +5,18 @@ permalink: /FAQ-startup
 date: 2014-06-10
 ---
 
+
+by hand with entities  
+ &ldquo;double&rdquo;  &lsquo;single&rsquo; apos&rsquo;s
+
+by hand with character data  
+ “double”  ‘single’ apos’s
+
+smart quotes  
+ "double" 'singe' apos's
+ 
+
+
 (La)TeX offers a very large number of choices, and the beginner has
 to navigate through that set before even taking his first steps.  The
 aim here is to guide the beginner through a set of answers that may
