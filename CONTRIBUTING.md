@@ -1,6 +1,5 @@
 ---
 title: CONTRIBUTING
-category: contributing
 permalink: /CONTRIBUTING
 ---
 
@@ -70,7 +69,7 @@ the FAQ useful. There are a few things to watch out for
 - The Jekyll 'back-end' used by GitHub Pages is somewhat picky about unbalanced
   braces (`{` and `}`), even in code blocks. That's because it is looking for
   some instructions of its own there. To turn this off, surround the relevant
-  parts of your source with!!6
+  parts of your source with!!7
   
   <code>&lt;!-- &#x7b;&#x25; raw &#x25;&#x7d; --&gt;</code>
 
