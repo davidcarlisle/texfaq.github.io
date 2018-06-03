@@ -9,7 +9,7 @@ date: 2014-06-10
 double bsl x `\\ `  x
 
 
-double bsl x `\\ `  x
+double bsl x `\\`  x
 
 
 by hand with entities  
