@@ -2,7 +2,6 @@
 title: TeX font metric files for Type 1 fonts
 category: fonts
 permalink: /FAQ-metrics
-date: 2014-06-10
 ---
 
 Reputable font vendors such as Adobe supply metric files for each
@@ -14,7 +13,7 @@ acquire a new font. One important question is the _encoding_ of
 (Latin character) fonts; while we all more or less agree about the
 position of about 96 characters in fonts (the basic ASCII set), the
 rest of the (typically) 256 vary. The most obvious problems are with
-floating accents and special characters such as the ''pounds sterling''
+floating accents and special characters such as the "pounds sterling"
 sign. There are three ways of dealing with this: either you change the
 TeX macros which reference the characters (not much fun, and
 error-prone); or you change the encoding of the font (easier than you
@@ -25,12 +24,12 @@ encodings; read the [_LaTeX Companion_](FAQ-latex-books) for
 more details.  In practice, if you do much non-English (but Latin
 script) typesetting, you are strongly recommended to use the
 [`fontenc`](https://ctan.org/pkg/fontenc) package with option `T1` to select
-[''Cork''](FAQ-ECfonts) encoding.
+["Cork"](FAQ-ECfonts) encoding.
 
-An alternative favoured by some is Y&Y's ''private'' LY1 encoding,
-which is designed to sit well with ''Adobe standard'' encoded fonts.
+An alternative favoured by some is Y&Y's "private" LY1 encoding,
+which is designed to sit well with "Adobe standard" encoded fonts.
 Basic macro support of LY1 is available: note that the
-''relation with Adobe's encoding'' means that the LY1 user
+"relation with Adobe's encoding" means that the LY1 user
 needs no virtual fonts.
 
 Alan Jeffrey's `fontinst` package is an AFM to

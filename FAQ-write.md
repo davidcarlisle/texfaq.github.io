@@ -2,7 +2,6 @@
 title: Writing (text) files from TeX
 category: concepts
 permalink: /FAQ-write
-date: 2014-06-10
 ---
 
 TeX allows you to write to output files from within your document.
@@ -10,10 +9,10 @@ The facility is handy in many circumstances, but it is vital for
 several of the things LaTeX (and indeed almost any higher-level
 TeX-based macro package) does for you.
 
-The basic uses of writing to an external file are ''obvious''&nbsp;&mdash;
+The basic uses of writing to an external file are "obvious"&nbsp;&mdash;
 remembering titles of sections for a table of contents, remembering
 label names and corresponding section or figure numbers, all for a
-later run of your document.  However, the ''non-obvious'' thing is
+later run of your document.  However, the "non-obvious" thing is
 easy to forget: that page numbers, in TeX, are slippery beasts, and
 have to be captured with some care.  The trick is that `\write`
 operations are only executed as the page is sent to the DVI
@@ -29,7 +28,7 @@ requirement, too, with the primitive command `\immediate`:
 ```latex
 \immediate\write\terminal{I'm waiting...}
 ```
-writes a ''computer-irritates-user'' message, to the terminal.
+writes a "computer-irritates-user" message, to the terminal.
 
 Which brings us to the reason for that `\terminal`.  TeX can
 `\write` up to 16 streams simultaneously, and that argument to

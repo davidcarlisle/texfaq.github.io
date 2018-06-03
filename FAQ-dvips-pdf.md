@@ -2,7 +2,6 @@
 title: Quality of PDF from PostScript
 category: misc
 permalink: /FAQ-dvips-pdf
-date: 2014-06-10
 ---
 
 Any reasonable PostScript, including any output of `dvips`, may be
@@ -33,7 +32,7 @@ Issues covered are:
 
 It should be noted that `Adobe` 
 `Reader`&nbsp;6 (released in mid-2003, and later versions) does
-not exhibit the ''fuzziness'' that so many of the answers below
+not exhibit the "fuzziness" that so many of the answers below
 address.  This is of course good news: however, it will inevitably be
 a long time before every user in the world has this (or later)
 versions, so the remedies below are going to remain for some time to
@@ -41,5 +40,5 @@ come.
 
 The problems are also discussed, with practical examples, in Mike
 Shell's [`testflow`](https://ctan.org/pkg/testflow) package, which these FAQs recommend as a
-''[specialised tutorial](FAQ-tutbitslatex)''.
+"[specialised tutorial](FAQ-tutbitslatex)".
 

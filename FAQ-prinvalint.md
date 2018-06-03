@@ -2,10 +2,9 @@
 title: The Principal Value Integral symbol
 category: formatting
 permalink: /FAQ-prinvalint
-date: 2014-06-10
 ---
 
-This symbol (an integral sign, ''crossed'') does not appear in any of
+This symbol (an integral sign, "crossed") does not appear in any of
 the fonts ordinarily available to (La)TeX users, but it can be
 created by use of the following macros:
 <!-- {% raw %} -->

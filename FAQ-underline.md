@@ -3,7 +3,6 @@ title: Underlined text won't break
 category: errors
 tags: layout
 permalink: /FAQ-underline
-date: 2014-06-10
 ---
 
 Knuth made no provision for underlining text: he took the view that
@@ -18,7 +17,7 @@ specify double-spaced
 [thesis styles](FAQ-linespace))
 continue to require underlining of us, so LaTeX as distributed
 defines an `\underline` command that applies the mathematical
-''underbar'' operation to text.  This technique is not entirely
+"underbar" operation to text.  This technique is not entirely
 satisfactory, however: the text gets stuck into a box, and won't break
 at line end.
 

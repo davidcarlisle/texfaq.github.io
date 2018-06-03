@@ -1,12 +1,13 @@
 ---
 title: Using labels as counter values
 category: programming
-tags: macros latex
+tags:
+  - latex
+  - macros
 permalink: /FAQ-labelcount
-date: 2014-06-10
 ---
 
-Labels are tempting sources of ''numbers''&nbsp;&mdash; their most common use,
+Labels are tempting sources of "numbers"&nbsp;&mdash; their most common use,
 after all, is simply to typeset a number.  However, their seeming
 simplicity is deceptive; the packages [`babel`](https://ctan.org/pkg/babel) and
 [`hyperref`](https://ctan.org/pkg/hyperref), at least, fiddle with the definition of
@@ -31,7 +32,7 @@ and `\addtocounterpageref`).
 
 The package also provides a command
 `\getrefnumber{label-name}` that may be used where a
-''number'' value is needed.  For example:
+"number" value is needed.  For example:
 ```latex
 ... \footnote{foo bar ...\label{foofoot}}
 ...

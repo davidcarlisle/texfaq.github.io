@@ -2,7 +2,6 @@
 title: An extra `}`?
 category: errors
 permalink: /FAQ-extrabrace
-date: 2014-06-10
 ---
 
 You've looked at your LaTeX source and there's no sign of a misplaced
@@ -64,6 +63,6 @@ been addressed in LaTeX2e by the robust command `\ensuremath`:
 So: always look for alternatives to the `\protect` route.
 
 Footnotes can be even more complex; 
-''[footnotes in LaTeX section headings](FAQ-ftnsect)''
+"[footnotes in LaTeX section headings](FAQ-ftnsect)"
 deals specifically with that issue.
 

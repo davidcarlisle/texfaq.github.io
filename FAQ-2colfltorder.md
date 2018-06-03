@@ -2,12 +2,11 @@
 title: Two-column float numbers out of order
 category: errors
 permalink: /FAQ-2colfltorder
-date: 2014-06-10
 ---
 
 When LaTeX can't place a float immediately, it places it on one of
-several ''defer'' lists.  If another float of the same type comes
-along, and the ''defer'' list for that type still has something in it,
+several "defer" lists.  If another float of the same type comes
+along, and the "defer" list for that type still has something in it,
 the later float has to wait for everything earlier in the list.
 
 Now, standard LaTeX has different lists for single-column floats,

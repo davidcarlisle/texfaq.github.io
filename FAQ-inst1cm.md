@@ -2,7 +2,6 @@
 title: Installing the Type&nbsp;1 versions of the CM&nbsp;fonts
 category: installing
 permalink: /FAQ-inst1cm
-date: 2014-06-10
 ---
 
 This is a specialised case of [installing a font](FAQ-instfont),
@@ -15,8 +14,8 @@ the sequence:
 latex sample2e
 dvips -o sample2e.ps sample2e
 ```
-at a ''command prompt'' (`shell`, in a Unix-style system,
-''DOS box'' in a Windows system).
+at a "command prompt" (`shell`, in a Unix-style system,
+"DOS box" in a Windows system).
 
 If the command works at all, the console output of the command will
 include a sequence of Type&nbsp;1 font file names, listed as

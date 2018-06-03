@@ -2,7 +2,6 @@
 title: Installation using MiKTeX package manager
 category: installing
 permalink: /FAQ-inst-miktexstar
-date: 2014-06-10
 ---
 
 Packages for use with MiKTeX are maintained very efficiently by the
@@ -11,7 +10,7 @@ make their way to the MiKTeX package repository within a week).
 Thus it makes sense for the MiKTeX user to take advantage of the
 system rather than grinding through the steps of installation.
 
-MiKTeX maintains a database of packages it ''knows about'',
+MiKTeX maintains a database of packages it "knows about",
 together with (coded) installation instructions that enable it to
 install the packages with minimal user intervention; you can update
 the database over the internet.

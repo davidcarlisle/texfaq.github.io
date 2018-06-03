@@ -3,7 +3,6 @@ title: (Merely) peculiar hyphenation
 category: usage
 tags: hyphenation
 permalink: /FAQ-oddhyphen
-date: 2014-06-10
 ---
 
 You may have found that TeX's famed automatic word-division does
@@ -15,6 +14,6 @@ in the Oxford Dictionaries). This problem is being addressed by the UK
 TeX User community (see Baskerville, issue&nbsp;4.4) but an entirely
 satisfactory solution will take time; the current status is to be
 found on CTAN (see
-[''using a new language''](FAQ-newlang) for instructions
-on adding this new ''language'').
+["using a new language"](FAQ-newlang) for instructions
+on adding this new "language").
 

@@ -2,7 +2,6 @@
 title: In-line source for graphics applications
 category: graphics
 permalink: /FAQ-inlgrphapp
-date: 2014-06-10
 ---
 
 Some of the free-standing graphics applications may also be used
@@ -11,8 +10,8 @@ Some of the free-standing graphics applications may also be used
 - asymptoteThe package [`asymptote`](https://ctan.org/pkg/asymptote) (provided in the
   `asymptote` distribution) defines an environment
   `asy` which arranges that its contents are available for
-  processing, and will therefore be typeset (after ''enough'' runs, in
-  the ''usual'' LaTeX way).
+  processing, and will therefore be typeset (after "enough" runs, in
+  the "usual" LaTeX way).
 
   Basically, you write
   ```latex

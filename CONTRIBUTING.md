@@ -41,7 +41,9 @@ for example:
 ---
 title: Master and slave counters
 category: programming
-tags: latex macros
+tags:
+  - latex
+  - macros
 permalink: /FAQ-addtoreset
 date: 2014-06-10
 ---
@@ -81,11 +83,14 @@ the FAQ useful. There are a few things to watch out for
   - `&ndash;` En-dash
   - `&nbsp;` Non-breaking space
 
+- quotes you can use ASCII double and single quotes, which will be changed
+  to typographical quotes: `"abc" 'abc' abc's` produces “abc” ‘abc’ abc’s.
+  
 - Please wrap source lines to keep them below 80 characters long
 
 ## New questions
 
-- File names should be of the form `FAQ-<name>.md`, where the `<name> is made
+- File names should be of the form `FAQ-<name>.md`, where the `<name>` is made
   up of characters ASCII letters, numbers and "-" only.
 - If the `<name>` part is not all lower case, add a `redirect_from:`
   entry in the fronmatter of the page redirecting from the lowercase.

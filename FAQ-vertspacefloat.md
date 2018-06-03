@@ -2,7 +2,6 @@
 title: Extra vertical space in floats
 category: errors
 permalink: /FAQ-vertspacefloat
-date: 2014-06-10
 ---
 
 A common complaint is that extra vertical space has crept into
@@ -37,7 +36,7 @@ or worse still:
 unwarranted vertical space is going to appear.
 
 The solution is to let the float and the objects in it position
-themselves, and to use ''generic'' layout commands rather than their
+themselves, and to use "generic" layout commands rather than their
 list-based encapsulations.
 ```latex
 \begin{figure}

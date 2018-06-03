@@ -2,7 +2,6 @@
 title: Why doesn't `\linespread` work?
 category: usage
 permalink: /FAQ-linespread
-date: 2014-06-10
 ---
 
 The command `\linespread{factor}` is supposed to multiply
@@ -28,8 +27,8 @@ or:
 ```
 Of course, a package such as [`setspace`](https://ctan.org/pkg/setspace), whose job is to
 manage the baseline, will deal with all this stuff&nbsp;&mdash; see
-''[managing double-spaced documents](FAQ-linespace)''.  If
+"[managing double-spaced documents](FAQ-linespace)".  If
 you want to avoid [`setspace`](https://ctan.org/pkg/setspace), beware the behaviour of
 linespread changes within a paragraph: read 
-''[`\baselineskip` is a paragraph parameter](FAQ-baselinepar)''.
+"[`\baselineskip` is a paragraph parameter](FAQ-baselinepar)".
 

@@ -3,7 +3,6 @@ title: _Curriculum Vitae_ (Résumé)
 category: formatting
 tags: classes
 permalink: /FAQ-cv
-date: 2014-06-10
 ---
 
 Andrej Brodnik's class, [`vita`](https://ctan.org/pkg/vita), offers a framework for producing
@@ -16,8 +15,8 @@ class to define new entry types, etc.
 
 Didier Verna's class, [`curve`](https://ctan.org/pkg/curve), is based on a model in which
 the CV is made of a set of _rubrics_ (each one dealing
-with a major item that you want to discuss, such as ''education'', ''work
-experience'', etc).  The class's documentation is supported by a couple
+with a major item that you want to discuss, such as "education", "work
+experience", etc).  The class's documentation is supported by a couple
 of example files, and an emacs mode is provided.
 
 Xavier Danaux offers a class [`moderncv`](https://ctan.org/pkg/moderncv) which supports

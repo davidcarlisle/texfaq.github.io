@@ -3,7 +3,6 @@ title: What's happened to `initex`?
 category: errors
 tags: deprecated
 permalink: /FAQ-initex
-date: 2014-06-10
 ---
 
 In the beginning, (La)TeX was stretching the capacity of every
@@ -19,7 +18,7 @@ has been found sufficiently error-prone that free Unix-style system
 distributions have abolished `initex` and its friends and
 relations such as `inipdftex` in favour of a single
 executable (that is, just `tex` or `pdftex`) that
-will ''do what `initex` (or whatever) used to do'' if it
+will "do what `initex` (or whatever) used to do" if it
 detects the command option `-ini`.
 
 The change happened with the advent of teTeX version

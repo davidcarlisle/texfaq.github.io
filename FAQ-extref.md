@@ -1,9 +1,10 @@
 ---
 title: Referring to labels in other documents
 category: formatting
-tags: labels references
+tags:
+  - labels
+  - references
 permalink: /FAQ-extref
-date: 2014-06-10
 ---
 
 When producing a set of inter-related documents, you'll often want to
@@ -47,7 +48,7 @@ compiled), write:
 ... the \nameref{V1-introduction})...
 ```
 and the name reference will appear as an active link to the
-''introduction'' chapter of `volume1.pdf`.
+"introduction" chapter of `volume1.pdf`.
 
 To link to a PDF document on the Web, for which you happen to
 have the .aux file, write:
@@ -69,6 +70,6 @@ trivial example (from a `comp.text.tex` posting) is
 \zref{foo}
 ```
 The module provides all the facilities of the older packages, and can
-deal both with ''traditional'' LaTeX labels and with
+deal both with "traditional" LaTeX labels and with
 [`zref`](https://ctan.org/pkg/zref)'s style of labels.
 

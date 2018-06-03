@@ -2,11 +2,10 @@
 title: Books relevant to TeX and friends
 category: documentation
 permalink: /FAQ-book-lists
-date: 2014-06-10
 ---
 
 There are too many books for them all to appear in a single list, so
-the following answers aim to cover ''related'' books, with subject
+the following answers aim to cover "related" books, with subject
 matter as follows:
   
 

@@ -4,18 +4,17 @@ category: fonts
 tags: metafont
 permalink: /FAQ-useMF
 redirect_from: /FAQ-usemf
-date: 2014-06-10
 ---
 
 MetaFont allows you to create your own fonts, and most TeX users
 will never need to use it&nbsp;&mdash; modern (La)TeX systems contain
 rather few MetaFont fonts of any significance, and when MetaFont output is
-needed the font generation is done, automatically, ''on the fly''.
+needed the font generation is done, automatically, "on the fly".
 
 If you find you have some special requirement that the system doesn't
 satisfy, you need to know about MetaFont in rather more detail.  MetaFont,
 unlike TeX, requires customisation for each output device: such
-customisation is conventionally held in a ''mode'' associated with the
+customisation is conventionally held in a "mode" associated with the
 device.  Modes are commonly defined using the `mode_def`
 convention described on page&nbsp;94 of _The MetaFontbook_ 
 (see [TeX-related books](FAQ-other-books)).  Your
@@ -30,7 +29,7 @@ Settings for new output devices are added to `modes.mf` as they
 become available.
 
 Now create
-a `plain` base file using `mf` (in ''initialisation''
+a `plain` base file using `mf` (in "initialisation"
 mode), `plain.mf`, and `local.mf`: 
 ```latex
 % mf -ini
@@ -52,15 +51,15 @@ Now you need to make sure MetaFont loads this new base when it starts up. If
 MetaFont loads the `plain` base by default on your system, then you're
 ready to go. Under Unix (using the default TeX&nbsp;Live (and earlier)
 distributions this does indeed happen, but we could for instance
-define a command `plainmf`
-<sup class="fmk">&dagger;</sup><span class="footnote">&dagger; 
-  On the grounds that a command `plain` could be misconstrued
-  as a reference to Plain TeX
-</span>
+define a command `plainmf`<sup class="fmk">&dagger;</sup>
 which executes `mf -base=plain` (or, in more traditional
 style `mf & lain`) which loads the `plain` base
 file.
 
+  > &dagger; 
+  > On the grounds that a command `plain` could be misconstrued
+  > as a reference to Plain TeX.
+  
 The usual way to create a font with MetaFont (with an appropriate base
 file loaded) is to start MetaFont's input with the
 line
@@ -69,10 +68,10 @@ line
 ```
 in response to the `**` prompt or on the MetaFont command line. (If
 `<mode name>` is unknown or omitted, the mode defaults to
-''proof'' mode and MetaFont will produce an output file called 
+"proof" mode and MetaFont will produce an output file called 
 `<font file name>.2602gf`)
 The `<magnification>` is a floating point number or a
-''magstep'' (magsteps define sizes by stating how many times you need to
+"magstep" (magsteps define sizes by stating how many times you need to
 multiply a base size by `1.2`, so for a base size of
 `10`, `magstep 1` is `12`, `magstep 2` is
 `14.4`
@@ -87,7 +86,7 @@ Note that under Unix the `\ ` and `;`
 characters must usually be quoted or escaped, so this would typically
 look something like
 ```latex
- mf ''\mode=epson; mag=magstep 1; input cmr10''
+ mf "\mode=epson; mag=magstep 1; input cmr10"
 ```
 If you need a special mode that isn't in the base, you can put its
 commands in a file (e.g., `ln03.mf`) and invoke it on the

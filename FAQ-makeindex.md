@@ -2,7 +2,6 @@
 title: Generating an index in (La)TeX
 category: formatting
 permalink: /FAQ-makeindex
-date: 2014-06-10
 ---
 
 Making an index is not trivial; what to index, and how to index it, is
@@ -45,6 +44,6 @@ The following programs are available:
 
   `Xindy` itself will work with Unicode (UTF-8) encoded
   LaTeX input.  A separate application (`texindy`) deals
-  with ''standard'' LaTeX source, processes it and passes
-  ''sanitised'' text to `Xindy`.
+  with "standard" LaTeX source, processes it and passes
+  "sanitised" text to `Xindy`.
 

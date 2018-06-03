@@ -2,7 +2,6 @@
 title: Making HTML of your Bibliography
 category: bibliographies
 permalink: /FAQ-htmlbib
-date: 2014-06-10
 ---
 
 A neat solution is offered by the [`noTeX`](https://ctan.org/pkg/notex-bst) bibliography style.
@@ -21,5 +20,5 @@ styles, and post-process the output so produced using a
 A more conventional translator is the `awk` script
 `bbl2html`, which translates the `bbl` file you've generated:
 a sample of the script's output may be viewed on the web, at
-[http://rikblok.cjb.net/lib/refs.html]
+<http://rikblok.cjb.net/lib/refs.html>
 

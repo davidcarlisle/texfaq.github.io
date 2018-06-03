@@ -1,9 +1,10 @@
 ---
 title: Making labels from a counter
 category: programming
-tags: latex macros
+tags:
+  - latex
+  - macros
 permalink: /FAQ-labelctr
-date: 2014-06-10
 ---
 
 Suppose we have a LaTeX counter, which we've defined with
@@ -13,8 +14,8 @@ operation that happens so often &hellip;&nbsp;so there's a command
 `\stepcounter{foo}` that does this special case of
 increasing-by-one.
 
-There's an internal LaTeX variable, the ''current label'', that
-remembers the last ''labellable'' thing that LaTeX has processed.
+There's an internal LaTeX variable, the "current label", that
+remembers the last "labellable" thing that LaTeX has processed.
 You could (if you were to insist) set that value by the relevant
 TeX command (having taken the necessary precautions to ensure that
 the internal command worked)&nbsp;&mdash; but it's not necessary.  If, instead

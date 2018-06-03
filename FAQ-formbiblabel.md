@@ -3,7 +3,6 @@ title: Format of numbers in the bibliography
 category: bibliographies
 tags: citations
 permalink: /FAQ-formbiblabel
-date: 2014-06-10
 ---
 
 By default, LaTeX makes entries in the bibliography look like:
@@ -15,7 +14,7 @@ while many documents need something like:
 
   2. Doe, Jane et al. Some journal. 2003.
 
-This sort of change may be achieved by many of the ''general''
+This sort of change may be achieved by many of the "general"
 citation packages; for example, in [`natbib`](https://ctan.org/pkg/natbib), it's as simple as:
 ```latex
 \renewcommand{\bibnumfmt}[1]{#1.}

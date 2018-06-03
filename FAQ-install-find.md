@@ -2,7 +2,6 @@
 title: Finding packages to install
 category: installing
 permalink: /FAQ-install-find
-date: 2014-06-10
 ---
 
 How did you learn about the package?
@@ -39,6 +38,6 @@ not, packages grouped in this way depend on each other, so that you
 really _need_ the other ones.
 
 Having acquired the package distribution, 
-''[unpacking LaTeX packages](FAQ-install-unpack)'' outlines
+"[unpacking LaTeX packages](FAQ-install-unpack)" outlines
 your next step.
 

@@ -2,7 +2,6 @@
 title: Double-spaced documents in LaTeX
 category: formatting
 permalink: /FAQ-linespace
-date: 2014-06-10
 ---
 
 A quick and easy way of getting inter-line space for copy-editing is
@@ -33,7 +32,7 @@ typewriter-substitute, and can (properly used) make single-spaced text
 even more easily readable than double-spaced typewritten text.  If you
 have any influence on your university's system (for example, through
 your dissertation supervisor), it may be worth attempting to get the
-rules changed (at least to permit a ''well-designed book'' format).
+rules changed (at least to permit a "well-designed book" format).
 
 Double-spaced submissions are also commonly required when submitting
 papers to conferences or journals.  Fortunately (judging by the

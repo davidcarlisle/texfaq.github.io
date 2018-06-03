@@ -3,7 +3,6 @@ title: Letters and the like
 category: formatting
 tags: classes
 permalink: /FAQ-letterclass
-date: 2014-06-10
 ---
 
 LaTeX itself provides a [`letter`](https://ctan.org/pkg/letter) document class, which is
@@ -20,7 +19,7 @@ in the preamble of your file.
 Doing-it-yourself is a common strategy; Knuth (for use with
 Plain TeX, in the TeXbook), and Kopka and Daly (in their Guide to
 LaTeX) offer worked examples.  (The latest version of Knuth's
-macros appear in his ''local library'' dump on the archive, which is
+macros appear in his "local library" dump on the archive, which is
 updated in parallel with new versions of TeX&nbsp;&mdash; so not very often&hellip;)
 
 Nevertheless, there _are_ contributed alternatives&nbsp;&mdash; in fact

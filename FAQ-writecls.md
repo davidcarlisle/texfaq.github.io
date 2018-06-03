@@ -2,7 +2,6 @@
 title: Learning to write LaTeX classes and packages
 category: documentation
 permalink: /FAQ-writecls
-date: 2014-06-10
 ---
 
 There's nothing particularly magic about the commands you use when
@@ -12,7 +11,7 @@ a file `package.sty` and you have a package.
 
 However, any but the most trivial package will require rather more
 sophistication.  Some details of LaTeX commands for the job are to
-be found in ''LaTeX2e for class and package writers''
+be found in "LaTeX2e for class and package writers"
 (`clsguide`, part of the LaTeX documentation distribution).
 Beyond this, a good knowledge of TeX itself is valuable: thus books
 such as the [TeXbook](FAQ-tex-books) or 

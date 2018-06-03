@@ -2,7 +2,6 @@
 title: Copy-paste-able/searchable PDF files
 category: usage
 permalink: /FAQ-cpy-srchpdf
-date: 2014-06-10
 ---
 
 PDF files generated from TeX (and friends), will by default
@@ -23,7 +22,7 @@ converted, by whatever means), or from pdfLaTeX, the character
 codes used in the PDF file are in fact those of the document's
 [font encoding](FAQ-whatenc); if you're using OT1 or
 T1, your document will be OK for almost all ASCII
-characters, but it's likely that anything ''out of the ordinary'' will
+characters, but it's likely that anything "out of the ordinary" will
 not be represented properly.  (Of course, PDF generated from
 XeTeX- or LuaTeX-based formats is going to be OK, since
 those engines work in Unicode throughout.)

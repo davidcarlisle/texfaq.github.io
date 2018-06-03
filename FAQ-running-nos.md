@@ -2,7 +2,6 @@
 title: Running equation, figure and table numbering
 category: usage
 permalink: /FAQ-running-nos
-date: 2014-06-10
 ---
 
 Many LaTeX classes (including the standard [`book`](https://ctan.org/pkg/book) class)
@@ -64,6 +63,6 @@ numbered per chapter, try:
 \makeatother
 ```
 (the command `\@addtoreset` is a part of LaTeX itself).
-  ''fragment'' for use within other packages: load by
+  "fragment" for use within other packages: load by
   `\input{removefr}`)
 

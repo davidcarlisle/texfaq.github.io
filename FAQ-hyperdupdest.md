@@ -2,7 +2,6 @@
 title: pdfTeX destination &hellip; ignored
 category: errors
 permalink: /FAQ-hyperdupdest
-date: 2014-06-10
 ---
 
 The warning:
@@ -50,8 +49,8 @@ You should load packages in this order as a matter of course, unless
 the documentation of a package says you _must_ load it after
 [`hyperref`](https://ctan.org/pkg/hyperref).  (There are few packages that require to be
 loaded after hyperref: one such is [`memoir`](https://ctan.org/pkg/memoir)'s
-''[`hyperref`](https://ctan.org/pkg/hyperref) fixup'' package [`memhfixc`](https://ctan.org/pkg/memhfixc).)
+"[`hyperref`](https://ctan.org/pkg/hyperref) fixup" package [`memhfixc`](https://ctan.org/pkg/memhfixc).)
 
-If loading your packages in the (seemingly) ''correct'' order doesn't
+If loading your packages in the (seemingly) "correct" order doesn't
 solve the problem, you need to [seek further help](FAQ-gethelp).
 

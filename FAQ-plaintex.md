@@ -1,8 +1,7 @@
 ---
-title: What's ''writing in TeX''?
+title: What's "writing in TeX"?
 category: background
 permalink: /FAQ-plaintex
-date: 2014-06-10
 ---
 
 TeX is a macro processor, and offers its users a powerful
@@ -16,7 +15,7 @@ basic, and is a pretty difficult beast to deal with. Recognising this
 document, himself) Knuth provided a package of macros for use with
 TeX, called Plain TeX; Plain TeX is a useful minimum set of
 macros that can be used with TeX, together with some demonstration
-versions of higher-level commands.  When people say they're ''writing
-(or programming) in TeX'', they usually mean they're programming in
+versions of higher-level commands.  When people say they're "writing
+(or programming) in TeX", they usually mean they're programming in
 Plain TeX.
 

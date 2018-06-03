@@ -2,7 +2,6 @@
 title: Numbers too large in table of contents, etc.
 category: usage
 permalink: /FAQ-tocloftwrong
-date: 2014-06-10
 ---
 
 LaTeX constructs the table of contents, list of figures, tables,
@@ -29,7 +28,7 @@ The same command may be employed in documents typeset with the
 [`Memoir`](https://ctan.org/pkg/Memoir) has another mechanism for the job:
 `\cftsetindents{<kind>}{indent}{numwidth}`.  Here
 _kind_ is `chapter`, `section`, or whatever; the
-_indent_ specifies the ''margin'' before the entry starts; and the
+_indent_ specifies the "margin" before the entry starts; and the
 _width_ is of the box into which the number is typeset (so needs
 to be wide enough for the largest number, with the necessary spacing
 to separate it from what comes after it in the line.

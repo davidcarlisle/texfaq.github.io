@@ -3,14 +3,13 @@ title: Reducing spacing in the bibliography
 category: bibliographies
 tags: citations
 permalink: /FAQ-compactbib
-date: 2014-06-10
 ---
 
 Bibliographies are, in fact, implemented as lists, so all the
 confusion about [reducing list item spacing](FAQ-complist) also
 applies to bibliographies.
 
-If the [`natbib`](https://ctan.org/pkg/natbib) package ''works'' for you (it may not if you are using
+If the [`natbib`](https://ctan.org/pkg/natbib) package "works" for you (it may not if you are using
 some special-purpose bibliography style), the solution is relatively
 simple&nbsp;&mdash; add
 ```latex

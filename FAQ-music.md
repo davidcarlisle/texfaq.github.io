@@ -2,7 +2,6 @@
 title: Typesetting music in TeX
 category: formatting
 permalink: /FAQ-music
-date: 2014-06-10
 ---
 
 The current best bet for music typesetting is to use
@@ -13,7 +12,7 @@ optimises the spacing and sorts out slurs and ties.
 [`Musixtex`](https://ctan.org/pkg/Musixtex) is demanding of TeX resources, and any
 significant score requires that typesetting is done using &epsilon;-TeX,
 whose expanded variable- and box-register ranges allow for more of the
-''parallel'' activities that abound in a music score.
+"parallel" activities that abound in a music score.
 Of course, [`musixtex`](https://ctan.org/pkg/musixtex) also requires music fonts; those are
 available in a separate package on the archive.
 
@@ -51,7 +50,7 @@ The program `midi2tex` can also generate [`musictex`](https://ctan.org/pkg/music
 output, from MIDI files.
 
 The history of music in TeX goes back some time; the earliest
-''working'' macros were MuTeX, by Angelika Schofer and Andrea
+"working" macros were MuTeX, by Angelika Schofer and Andrea
 Steinbach.  MuTeX was very limited, but it was some time before
 Daniel Taupin took up the baton, and developed MusicTeX, which
 allows the typesetting of polyphonic and other multiple-stave music;

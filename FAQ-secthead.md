@@ -3,7 +3,6 @@ title: The style of section headings
 category: formatting
 tags: structure
 permalink: /FAQ-secthead
-date: 2014-06-10
 ---
 
 Suppose that the editor of your favourite journal has specified that section
@@ -40,8 +39,8 @@ having read a smaller proportion of the manual.
 
 The [`fncychap`](https://ctan.org/pkg/fncychap) package provides a nice collection of customised
 chapter heading designs.  The [`anonchap`](https://ctan.org/pkg/anonchap) package provides a
-simple means of typesetting chapter headings ''like section headings''
-(i.e., without the ''Chapter'' part of the heading); the
+simple means of typesetting chapter headings "like section headings"
+(i.e., without the "Chapter" part of the heading); the
 [`tocbibind`](https://ctan.org/pkg/tocbibind) package provides the same commands, in pursuit of
 another end.
 

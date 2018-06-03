@@ -1,9 +1,10 @@
 ---
-title: LaTeX internal ''abbreviations'', etc.
+title: LaTeX internal "abbreviations", etc.
 category: programming
-tags: macros latex
+tags:
+  - latex
+  - macros
 permalink: /FAQ-ltxabbrv
-date: 2014-06-10
 ---
 
 In the deeps of time, when TeX first happened, computers had
@@ -14,17 +15,17 @@ space (and to a lesser extent) CPU time.
 
 From the very earliest days, Knuth used shortcut macros to speed
 things up.  LaTeX, over the years, has extended Knuth's list by a
-substantial amount.  An interesting feature  of the ''abbreviations'' is
+substantial amount.  An interesting feature  of the "abbreviations" is
 that on paper, they may look longer than the thing they stand for;
 however, to (La)TeX they _feel_ smaller&hellip;
 
 The table at the end of this answer lists the commonest of these
-''abbreviations''.  It is not complete; as always, if the table
+"abbreviations".  It is not complete; as always, if the table
 doesn't help, try the LaTeX source.  The table lists each
 abbreviation's _name_ and its _value_, which provide most of
 what a user needs to know.  The table also lists the abbreviation's
 _type_, which is a trickier concept: if you need to know, the
-only real confusion is that the abbreviations labelled ''defn'' are
+only real confusion is that the abbreviations labelled "defn" are
 defined using an `_xxxx_def` command.
 
 

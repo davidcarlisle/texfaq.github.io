@@ -3,7 +3,6 @@ title: What is MetaFont?
 category: background
 permalink: /FAQ-MF
 redirect_from: /FAQ-mf
-date: 2014-06-10
 ---
 
 MetaFont was written by Knuth as a companion to TeX; whereas TeX
@@ -16,7 +15,7 @@ printed output as post processes after a run of TeX.
 MetaFont's language for defining fonts permits the expression of several
 classes of things: first (of course), the simple geometry of the
 glyphs; second, the properties of the print engine for which the
-output is intended; and third, ''meta''-information which can
+output is intended; and third, "meta"-information which can
 distinguish different design sizes of the same font, or the difference
 between two fonts that belong to the same (or related) families.
 

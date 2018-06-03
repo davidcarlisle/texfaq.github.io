@@ -3,7 +3,6 @@ title: Where to find FAQs
 category: documentation
 permalink: /FAQ-whereFAQ
 redirect_from: /FAQ-wherefaq
-date: 2014-06-10
 ---
 
 Bobby Bodenheimer's article, from which this FAQ was developed, used
@@ -16,10 +15,10 @@ The sources of the present FAQ
 are available from CTAN.
 
 This FAQ and others are regularly mentioned, on
-`comp.text.tex` and elsewhere, in a ''pointer FAQ''
+`comp.text.tex` and elsewhere, in a "pointer FAQ"
 which is also saved at [http://tug.org/tex-ptr-faq](https://tug.org/tex-ptr-faq).
 
-A 2006 innovation from Scott Pakin is the ''visual'' LaTeX FAQ.
+A 2006 innovation from Scott Pakin is the "visual" LaTeX FAQ.
 This is a document with (mostly rubbish) text formatted so as to
 highlight things we discuss here, and providing Acrobat hyper-links to
 the relevant answers in this FAQ on the Web.  The visual
@@ -40,13 +39,13 @@ The Open Directory Project (ODP) maintains a list of sources of
 
 Other non-English FAQs are available (off-CTAN):
 
-- German Posted regularly to `de.comp.tex`, and archived
+- German: Posted regularly to `de.comp.tex`, and archived
   on CTAN; the FAQ also appears at
   [http://www.dante.de/faq/de-tex-faq/]([http://www.dante.de/faq/de-tex-faq/)
-- French
+- French:
   A FAQ used to be posted regularly to
   `fr.comp.text.tex`, and is archived on CTAN&nbsp;&mdash;
   sadly, that effort seems to have fallen by the wayside.
-- Czech See [https://www.fi.muni.cz/cstug/csfaq/](https://www.fi.muni.cz/cstug/csfaq/)
+- Czech: See [https://www.fi.muni.cz/cstug/csfaq/](https://www.fi.muni.cz/cstug/csfaq/)
 
 

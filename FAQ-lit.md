@@ -2,7 +2,6 @@
 title: What is Literate Programming?
 category: misc
 permalink: /FAQ-lit
-date: 2014-06-10
 ---
 
 Literate programming is the combination of documentation and source
@@ -13,7 +12,7 @@ parse the file to produce either readable documentation or compilable
 source.  The WEB style of literate programming was created by
 D.&nbsp;E.&nbsp;Knuth during the development of TeX.
 
-  The ''[documented LaTeX](FAQ-dtx)'' style of programming
+  The "[documented LaTeX](FAQ-dtx)" style of programming
 is regarded by some as a form of literate programming, though it only
 contains a subset of the constructs Knuth used.
 

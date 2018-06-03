@@ -2,7 +2,6 @@
 title: Limit the width of imported graphics
 category: graphics
 permalink: /FAQ-grmaxwidth
-date: 2014-06-10
 ---
 
 Suppose you have graphics which may or may not be able to fit within
@@ -25,7 +24,7 @@ of course needs a little LaTeX internals programming):
 \makeatother
 ```
 <!-- {% endraw %} -->
-This defines a ''variable'' width which has the properties you want.
+This defines a "variable" width which has the properties you want.
 Replace `\linewidth` if you have a different constraint on the width
 of the graphic.
 

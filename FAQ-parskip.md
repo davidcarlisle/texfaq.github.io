@@ -2,7 +2,6 @@
 title: Zero paragraph indent
 category: formatting
 permalink: /FAQ-parskip
-date: 2014-06-10
 ---
 
 The conventional way of typesetting running text has no separation
@@ -11,7 +10,7 @@ text indented.
 
 In contrast, one common convention for typewritten text was to have no
 indentation of paragraphs; such a style is often required for
-''brutalist'' publications such as technical manuals, and in styles
+"brutalist" publications such as technical manuals, and in styles
 that hanker after typewritten manuscripts, such as
 officially-specified dissertation formats.
 

@@ -3,10 +3,9 @@ title: Parallel setting of text
 category: formatting
 tags: layout
 permalink: /FAQ-parallel
-date: 2014-06-10
 ---
 
-It's commonly necessary to present text in two languages ''together'' on a
+It's commonly necessary to present text in two languages "together" on a
 page, or on a two-page spread.  For this to be satisfactory, one usually
 needs some sort of alignment between the two texts.
 
@@ -32,7 +31,7 @@ separate color stacks for the columns.
 The [`parcolumns`](https://ctan.org/pkg/parcolumns) package can (in principle) deal with any
 number of columns: the documentation shows its use with three
 columns.  Usage is rather similar to that of [`parallel`](https://ctan.org/pkg/parallel),
-though there is of course a ''number of columns to specify'':
+though there is of course a "number of columns to specify":
 ```latex
 \usepackage{parcolumns}
 ...
@@ -53,5 +52,5 @@ The [`ledpar`](https://ctan.org/pkg/ledpar) package is distributed with (and int
 the [`ledmac`](https://ctan.org/pkg/ledmac) package.  It provides parallel
 setting carefully integrated with the needs of a scholarly text,
 permitting translation, or notes, or both, to be set in parallel with
-the ''base'' text of the document.
+the "base" text of the document.
 

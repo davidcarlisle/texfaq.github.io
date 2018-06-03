@@ -3,7 +3,6 @@ title: Adjusting maths font sizes
 category: usage
 tags: math
 permalink: /FAQ-mathsize
-date: 2014-06-10
 ---
 
 In Plain TeX, when you introduce a new font size you must also
@@ -17,9 +16,9 @@ detail.
 
 In LaTeX, of course, all this stuff is automated: there is a scheme
 that, for each (text) font size, determines what maths font sizes are
-to be used.  The scheme first checks a set of ''known'' text sizes,
+to be used.  The scheme first checks a set of "known" text sizes,
 for each of which maths sizes are declared in advance.  If the text
-size isn't ''known'', the script- and scriptscriptfont sizes are
+size isn't "known", the script- and scriptscriptfont sizes are
 calculated as fixed ratios of the tex font size.  (The values used are
 `\defaultscriptratio`=0.7, and
 `\defaultscriptscriptratio`=0.5.)

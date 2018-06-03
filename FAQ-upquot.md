@@ -2,10 +2,9 @@
 title: Realistic quotes for verbatim listings
 category: formatting
 permalink: /FAQ-upquot
-date: 2014-06-10
 ---
 
-The `cmtt` font has ''curly'' quotes,
+The `cmtt` font has "curly" quotes,
 which are pleasing on the eye, but don't really tally with what one
 sees on a modern 
 `xterm`.

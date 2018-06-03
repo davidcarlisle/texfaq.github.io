@@ -1,8 +1,7 @@
 ---
-title: ''Missing `$` inserted''
+title: "Missing `$` inserted"
 category: errors
 permalink: /FAQ-nodollar
-date: 2014-06-10
 ---
 
 There are certain things that _only_ work in maths mode.  If your
@@ -14,7 +13,7 @@ TeX (and by inheritance, LaTeX too) will say
 as if you couldn't possibly have misunderstood the import of what you
 were typing, and the only possible interpretation is that you had
 committed a typo in failing to enter maths mode.  TeX, therefore,
-tries to patch things up by inserting the `$` you ''forgot'', so that
+tries to patch things up by inserting the `$` you "forgot", so that
 the maths-only object will work; as often as not this will land you in
 further confusion.
 
@@ -27,7 +26,6 @@ misused in text mode.
 LaTeX offers a command `\ensuremath`, which will put you in maths
 mode for the execution of its argument, if necessary: so if you want
 an `\alpha` in your running text, say
-`\ensuremath{`\alpha`}`; if the bit of running text somehow
+`\ensuremath{\alpha}`; if the bit of running text somehow
 transmutes into a bit of mathematics, the `\ensuremath` will become
 a no-op, so it's pretty much always safe.
-

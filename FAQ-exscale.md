@@ -2,10 +2,9 @@
 title: Maths symbols don't scale up
 category: usage
 permalink: /FAQ-exscale
-date: 2014-06-10
 ---
 
-By default, the ''large'' maths symbols stay at the same size
+By default, the "large" maths symbols stay at the same size
 regardless of the font size of the text of the document.  There's good
 reason for this: the `cmex` fonts aren't really designed to
 scale, so that TeX's maths placement algorithms don't perform as

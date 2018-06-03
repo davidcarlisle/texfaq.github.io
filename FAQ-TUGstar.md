@@ -3,7 +3,6 @@ title: TeX User Groups
 category: background
 permalink: /FAQ-TUGstar
 redirect_from: /FAQ-tugstar
-date: 2014-06-10
 ---
 
 There has been a TeX User Group since very near the time TeX
@@ -19,7 +18,7 @@ TeX-related matters, such as details of TeX software, and lists
 of TeX vendors and TeX consultants.  Back articles from
 _TUGboat_ are also available.
 
-Some time ago, TUG established a ''technical council'', whose
+Some time ago, TUG established a "technical council", whose
 task was to oversee the development of TeXnical projects.  Most
 such projects nowadays go on their way without any support from
 TUG, but TUG's web site lists its
@@ -28,7 +27,7 @@ TUG, but TUG's web site lists its
 TUG has a reasonable claim to be considered a world-wide
 organisation, but there are many national and regional user groups,
 too; TUG's web site maintains a list of
-[''Local User Groups'' (LUGs)](http://www.tug.org/lugs.html).
+["Local User Groups" (LUGs)](http://www.tug.org/lugs.html).
 
 Contact TUG itself via http://tug.org/contact
 

@@ -2,12 +2,11 @@
 title: Setting bold Greek letters in LaTeX maths
 category: formatting
 permalink: /FAQ-boldgreek
-date: 2014-06-10
 ---
 
 The issue here is complicated by the fact that `\mathbf` (the
 command for setting bold _text_ in TeX maths) affects a select
-few mathematical ''symbols'' (the uppercase Greek letters).
+few mathematical "symbols" (the uppercase Greek letters).
 
 In the default configuration, lower-case Greek letters behave
 differently from upper-case Greek letters (the lower-case greek

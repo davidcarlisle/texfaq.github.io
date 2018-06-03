@@ -1,8 +1,7 @@
 ---
-title: Output to ''other'' printers
+title: Output to "other" printers
 category: misc
 permalink: /FAQ-otherprinters
-date: 2014-06-10
 ---
 
 In the early years of TeX, there were masses of DVI drivers

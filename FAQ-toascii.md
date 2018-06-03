@@ -2,7 +2,6 @@
 title: Conversion from (La)TeX to plain text
 category: misc
 permalink: /FAQ-toascii
-date: 2014-06-10
 ---
 
 The aim here is to emulate the Unix `nroff`, which formats
@@ -46,7 +45,7 @@ restricted circumstances.
 `Perl` script that converts TeX files into
 plain text files, expanding various mathematical symbols
 (sums, products, integrals, sub/superscripts, fractions, square
-roots, &hellip;) into ''ASCII art'' that spreads over
+roots, &hellip;) into "ASCII art" that spreads over
 multiple lines if necessary. The result is more readable to human
 beings than the flat-style TeX code.
 

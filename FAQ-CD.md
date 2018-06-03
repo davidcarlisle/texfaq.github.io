@@ -3,7 +3,6 @@ title: The TeX collection
 category: installing
 permalink: /FAQ-CD
 redirect_from: /FAQ-cd
-date: 2014-06-10
 ---
 
 If you don't have access to the Internet, there are obvious
@@ -24,7 +23,7 @@ is distributed on DVD, and contains:
     [the TeXShop front-end](http://pages.uoregon.edu/koch/texshop/)
     and other Mac-specific tools;
 -  ProTeXt: an easy to install TeX system for Windows, based
-    on MiKTeX, based on an ''active'' document that guides
+    on MiKTeX, based on an "active" document that guides
     installation; and
 -  A snapshot of CTAN.
 

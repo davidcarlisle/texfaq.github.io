@@ -1,9 +1,10 @@
 ---
 title: Bibliography, index, etc., in TOC
 category: formatting
-tags: toc index
+tags:
+  - toc
+  - index
 permalink: /FAQ-tocbibind
-date: 2014-06-10
 ---
 
 The standard LaTeX classes (and many others) use `\section*` or
@@ -44,7 +45,7 @@ adjustment is necessary:
 \bibliography{frooble}
 ```
 The extra command (`\phantomsection`) gives [`hyperref`](https://ctan.org/pkg/hyperref)
-something to ''hold on to'' when making the link.
+something to "hold on to" when making the link.
 
 The common solution, therefore, is to use the [`tocbibind`](https://ctan.org/pkg/tocbibind)
 package, which provides many facilities to control the way these

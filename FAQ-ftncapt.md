@@ -3,7 +3,6 @@ title: Footnotes in captions
 category: usage
 tags: footnotes
 permalink: /FAQ-ftncapt
-date: 2014-06-10
 ---
 
 Footnotes in captions are especially tricky: they present problems of
@@ -29,7 +28,7 @@ If you _are_ going to proceed:
 
 -  use an optional argument in your `\caption` command, that
     doesn't have the footnote in it; this prevents the footnote
-    appearing in the ''List of &hellip;'', and
+    appearing in the "List of &hellip;", and
 -  put your whole float in a `minipage` so as to keep
     the footnotes with the float.
 
@@ -54,7 +53,7 @@ solution this author is aware of.
 If you're suffering the problem, a well-constructed `\caption`
 command in a `minipage` environment within a float (as
 in the example above) can produce _two_ copies of the footnote
-body ''something''. (In fact, the effect only occurs with captions that are
+body "something". (In fact, the effect only occurs with captions that are
 long enough to require two lines to be typeset, and so wouldn't appear
 with such a short caption as that in the example above.)
 

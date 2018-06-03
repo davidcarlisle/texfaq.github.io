@@ -3,7 +3,6 @@ title: Defining a macro from an argument
 category: programming
 tags: macros
 permalink: /FAQ-csname
-date: 2014-06-10
 ---
 
 It's common to want a command to create another command: often one
@@ -32,7 +31,7 @@ With this definition, `\relay{blah}{bleah}` is equivalent to
 `\def\blah{bleah}`.
 
 Note that the definition of `\relay` omits the braces round the
-''command name'' in the `\newcommand` it executes.  This is
+"command name" in the `\newcommand` it executes.  This is
 because they're not necessary (in fact they seldom are), and in this
 circumstance they make the macro code slightly more tedious.
 
@@ -54,5 +53,5 @@ With commands
 \def\start#1{\csname start#1\endcsname}
 \def\finish#1{\csname finish#1\endcsname}
 ```
-these ''races'' could behave a bit like LaTeX environments.
+these "races" could behave a bit like LaTeX environments.
 

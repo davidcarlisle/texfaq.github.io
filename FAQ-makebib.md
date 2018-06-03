@@ -2,7 +2,6 @@
 title: Reconstructing `bib` files
 category: bibliographies
 permalink: /FAQ-makebib
-date: 2014-06-10
 ---
 
 Perhaps you've lost the `bib` file you generated your document from,
@@ -13,7 +12,7 @@ BibTeX&hellip;
 The `Perl` script, [`tex2bib`](https://ctan.org/pkg/tex2bib) makes a reasonable job
 of regenerating `bib` files from `thebibliography`
 environments, provided that the original (whether automatically or
-manually generated) doesn't deviate too far from the ''standard''
+manually generated) doesn't deviate too far from the "standard"
 styles.
 
 You are well-advised to check the output of the script.  While it will

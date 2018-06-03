@@ -2,7 +2,6 @@
 title: TeX-friendly editors and shells
 category: installing
 permalink: /FAQ-editors
-date: 2014-06-10
 ---
 
 There are good TeX-writing environments and editors for most
@@ -43,7 +42,7 @@ personal selection:
   and the advanced LaTeX user in mind.
 
   The `Kile` editor that is provided with the KDE
-  window manager provides GUI ''shell-like'' facilities, in a
+  window manager provides GUI "shell-like" facilities, in a
   similar way to the widely-praised `Winedt` (see below);
   details (and downloads) are available from the project's
   [home on SourceForge](http://kile.sourceforge.net/).
@@ -69,7 +68,7 @@ personal selection:
   as well as a powerful and well-configured editor.  The editor can
   generate its output in UTF-8 (to some extent), which is
   useful when working with [XeTeX](FAQ-xetex) (and other
-  ''next-generation'' (La)TeX applications).
+  "next-generation" (La)TeX applications).
 
   Both `emacs` and `vim` are available in versions
   for Windows systems.
@@ -95,7 +94,7 @@ facilities should review the answer on
 [Makefiles for LaTeX documents](FAQ-make).
 
 While many (La)TeX-oriented editors can support work on BibTeX
-files, there are many systems that provide specific ''database-like''
+files, there are many systems that provide specific "database-like"
 access to your BibTeX files&nbsp;&mdash;
-  see ''[creating a bibliography file](FAQ-buildbib)''.
+  see "[creating a bibliography file](FAQ-buildbib)".
 

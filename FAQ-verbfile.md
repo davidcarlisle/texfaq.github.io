@@ -2,7 +2,6 @@
 title: Including a file verbatim in LaTeX
 category: formatting
 permalink: /FAQ-verbfile
-date: 2014-06-10
 ---
 
 A good way is to use Rainer Schöpf's [`verbatim`](https://ctan.org/pkg/verbatim) package,
@@ -15,7 +14,7 @@ argument:
 ```
 Another way is to use the `alltt` environment, which
 requires the [`alltt`](https://ctan.org/pkg/alltt) package.  The environment interprets its
-contents ''mostly'' verbatim, but executes any (La)TeX commands it
+contents "mostly" verbatim, but executes any (La)TeX commands it
 finds:
 ```latex
 \usepackage{alltt}

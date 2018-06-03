@@ -3,7 +3,6 @@ title: Finding the width of a letter, word, or phrase
 category: programming
 tags: macros
 permalink: /FAQ-findwidth
-date: 2014-06-10
 ---
 
 Put the word in a box, and measure the width of the box. For example,
@@ -22,6 +21,6 @@ The same sort of thing is expressed in LaTeX by:
 \newlength{\gnat}
 \settowidth{\gnat}{\textbf{small}}
 ```
-This sets the value of the length command `\gnat` to the width of ''small''
+This sets the value of the length command `\gnat` to the width of "small"
 in bold-face text.
 

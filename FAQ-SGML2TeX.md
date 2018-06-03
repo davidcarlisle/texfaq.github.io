@@ -3,7 +3,6 @@ title: Conversion from SGML or HTML to TeX
 category: misc
 permalink: /FAQ-SGML2TeX
 redirect_from: /FAQ-sgml2tex
-date: 2014-06-10
 ---
 
 SGML is a very important system for document storage and interchange,
@@ -43,10 +42,10 @@ translator:
     5. 
         Joachim Schrod and Christine Detig's
         [`STIL`](ftp://ftp.tu-darmstadt.de/pub/text/sgml/stil),
-         (''SGML Transformations in Lisp'').
+         ("SGML Transformations in Lisp").
   
 
-    Both of these allow the user to write ''handlers'' for every SGML
+    Both of these allow the user to write "handlers" for every SGML
     element, with plenty of access to attributes, entities, and
     information about the context within the document tree.
   

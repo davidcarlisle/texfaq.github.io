@@ -3,7 +3,6 @@ title: Using a new language with Babel
 category: usage
 tags: hyphenation
 permalink: /FAQ-newlang
-date: 2014-06-10
 ---
 
 [`Babel`](https://ctan.org/pkg/Babel) is capable of working with a large range of
@@ -106,7 +105,7 @@ texconfig hyphen latex
   just as for a pre-v2.0 system.
 
 **_Caveat_**: It is (just) possible that
-your TeX system may run out of ''pattern memory'' while generating
+your TeX system may run out of "pattern memory" while generating
 the new format.  Most TeX implementations have fixed-size arrays
 for storing the details of hyphenation patterns, but although their
 size is adjustable in most modern distributions, actually changing the

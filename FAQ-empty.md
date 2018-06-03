@@ -3,7 +3,6 @@ title: Detecting that something is empty
 category: programming
 tags: macros
 permalink: /FAQ-empty
-date: 2014-06-10
 ---
 
 Suppose you need to know that the argument of your command is empty:
@@ -31,6 +30,6 @@ third argument.  The package's code also appears in the LaTeX
 [`memoir`](https://ctan.org/pkg/memoir) class.
 
 [`Ifmtarg`](https://ctan.org/pkg/Ifmtarg) makes challenging reading; there's also a discussion of the
-issue in number two of the ''around the bend'' articles by the late
+issue in number two of the "around the bend" articles by the late
 lamented Mike Downes.
 
