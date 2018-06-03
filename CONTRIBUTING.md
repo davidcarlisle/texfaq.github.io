@@ -3,7 +3,7 @@ title: CONTRIBUTING
 permalink: /CONTRIBUTING
 ---
 
-# Contributing to the FAQ2
+# Contributing to the FAQ
 
 Thanks for considering contributing to the TeX FAQ: feedback, fixes and ideas are
 all useful.
@@ -69,8 +69,10 @@ the FAQ useful. There are a few things to watch out for
 - The Jekyll 'back-end' used by GitHub Pages is somewhat picky about unbalanced
   braces (`{` and `}`), even in code blocks. That's because it is looking for
   some instructions of its own there. To turn this off, surround the relevant
-  parts of your source with!!7
-  
+  parts of your source with
+
+
+ 
   <code>&lt;!-- &#x7b;&#x25; raw &#x25;&#x7d; --&gt;</code>
 
   and
@@ -78,8 +80,7 @@ the FAQ useful. There are a few things to watch out for
   <code>&lt;!-- &#x7b;&#x25; endraw &#x25;&#x7d; --&gt;</code>
 
 
-
-(Typically these will go just before and after the <code>```</code> lines.)
+  (Typically these will go just before and after the <code>```</code> lines.)
 
 - Only use block quotes for real quotations: use code markup for terminal
   output and similar

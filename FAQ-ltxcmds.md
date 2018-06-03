@@ -47,7 +47,9 @@ shown below, and simply execute the command to find its definition:
 ```latex
 *\def\pshow#1{{\let\protect\show #1}}
 *\pshow\texttt
-> \texttt =\long macro:    \else \hmode@bgroup \text@command {#1}%
+> \texttt =\long macro:
+#1->\ifmmode \nfss@text {\ttfamily #1}%
+    \else \hmode@bgroup \text@command {#1}%
           \ttfamily \check@icl #1\check@icr
     \expandafter \egroup \fi .
 ```
@@ -66,7 +68,9 @@ gives:
 ```latex
 macro:->\protect \texttt  
 
-\texttt :    \else \hmode@bgroup \text@command {#1}%
+\texttt :
+#1->\ifmmode \nfss@text {\ttfamily #1}%
+    \else \hmode@bgroup \text@command {#1}%
           \ttfamily \check@icl #1\check@icr
     \expandafter \egroup \fi .
 ```
@@ -131,7 +135,7 @@ through LaTeX, so you don't have to work with the whole of
 macro you're interested in: use your "malleable text editor" to find
 the definition in `latex.ltx`; then search backwards from that
 point for a line that starts 
-`%%% From File:&nbsp;&mdash; that line
+`%%% From File:` &mdash; that line
 tells you which `dtx` file contains the definition you are interested
 in.  Doing this for `\protected@edef`, we find:
 ```latex
