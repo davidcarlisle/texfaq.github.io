@@ -62,11 +62,14 @@ Based on https://github.com/codinfox/codinfox-lanyon/blob/master/blog/category.h
 </ul>
 
 <h2 id="question-categories">Question Tags</h2>
-<ul class="tags">
+<blockquote>
 {%- for tag in tags %}
-  <li><a href="tags#{{ tag }}"> {{ tag | capitalize }} </a></li>
+    {%- if forloop.first == false -%}
+      &ndash;
+    {%- endif -%}
+  <a href="tags#{{ tag }}">{{ tag | capitalize }}</a>
 {%- endfor %}
-</ul>
+</blockquote>
 
 
 
