@@ -65,7 +65,7 @@ Based on https://github.com/codinfox/codinfox-lanyon/blob/master/blog/category.h
 <blockquote>
 {%- for tag in tags %}
     {%- if forloop.first == false -%}
-      &ndash;
+      &nbsp;&ndash;&nbsp;
     {%- endif -%}
   <a href="tags#{{ tag }}">{{ tag | capitalize }}</a>
 {%- endfor %}
