@@ -1,3 +1,7 @@
+---
+title: CONTRIBUTING
+permalink: /CONTRIBUTING
+---
 # Contributing to the FAQ2
 
 Thanks for considering contributing to the TeX FAQ: feedback, fixes and ideas are
