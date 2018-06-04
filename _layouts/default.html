@@ -38,7 +38,7 @@
 	
 {%- assign temppage = "" -%}
 {%- assign prevpage = "" -%}
-{%- assign nextpage = "" -%}
+{%- assign nextpage = "?" -%}
 
 {%- if page.category != "" -%}
 
@@ -73,10 +73,13 @@
   {%- assign xsorted = site.pages | sort: 'title' -%}
 	{%- for page in xsorted -%}
 	  {%- if page.category contains ct %}
+	{%- if nextpage=="" -%}
+	      {%- assign nextpage = page.path -%}
+        {%- endif -%}
 	{%- if thispage == page.path -%}
-	<p>(( {{ page.path }} ))</p>
       {%- assign prevpage = temppage -%}
-    {%- endif -%}
+      {%- assign nextpage = "" -%}
+	{%- endif -%}
     {%- assign temppage = page.path  -%}
     {%- endif -%}
   {%- endfor %}
@@ -84,7 +87,12 @@
 
 {%- endif -%}
 
-		<p>[4[ {{ prevpage }} ]][ {{ nextpage }} ]</p>
+	{% if prevpage != "" %}
+	<p><a href="{{ prevpage }}">previous</a></p>
+	{% endif %}
+	{% if nextpage != "" %}
+	<p><a href="{{ nextpage }}">next</a></p>
+	{% endif %}
 
 	
         {% if site.show_downloads %}
