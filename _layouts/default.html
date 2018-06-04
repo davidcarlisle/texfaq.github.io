@@ -42,6 +42,7 @@
 
 {%- if page.category != "" -%}
 
+{%- assign thiscat = page.category -%}
 
 {%- assign xrawcats = "" -%}
 {%- for page in site.pages -%}
@@ -71,7 +72,7 @@
 {% for ct in xcats %}
   {%- assign xsorted = site.pages | sort: 'title' -%}
 {%- for page in xsorted -%}
-	{%- if page.category == ct -%}
+	{%- if thiscat == ct -%}
 	<p>(( {{ page.path }} ))</p>
       {%- assign prevpage = temppage -%}
     {%- endif -%}
