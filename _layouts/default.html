@@ -5,6 +5,7 @@
 
 {%- if page.category -%}
 
+
 {%- assign rawcats = "" -%}
 {%- for page in site.pages -%}
 {%- assign tcats = page.category | join:'|' | append:'|' -%}
@@ -29,18 +30,17 @@
 {%- endfor -%}
 
 
+
 {% for ct in cats %}
   {%- assign sorted = site.pages | sort: 'title' -%}
-  {%- for page in sorted -%}
+{% paginate sorted by 1 %}
+{%- for page in sorted -%}
     {%- if page.category contains ct -%}
-      {%- assign prevpage temppage -%}
-      {%- assign nextpage "?" -%}
+      {%- assign prevpage paginate.previous.url -%}
+      {%- assign nextpage paginate.next.url -%}
     {%- endif -%}
-    {%- if nextpage == "?" -%}
-      {%- assign nextpage page.url -%}
-    {%- endif -%}
-    {%- assign temppage page.url -%}
   {%- endfor %}
+{% endpaginate %}
 {% endfor -%}
 
 {%- endif -%}
