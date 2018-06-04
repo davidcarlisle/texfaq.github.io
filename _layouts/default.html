@@ -88,10 +88,10 @@
 {%- endif -%}
 
 	{% if prevpage != "" %}
-	<p><a href="{{ prevpage }}">previous</a></p>
+	<p><a href="{{ prevpage | replace: '.md','' }}">previous</a></p>
 	{% endif %}
-	{% if nextpage != "" %}
-	<p><a href="{{ nextpage }}">next</a></p>
+	{% if nextpage != ""  and nextpage != "?"%}
+	<p><a href="{{ nextpage | replace: '.md','' }}">next</a></p>
 	{% endif %}
 
 	
