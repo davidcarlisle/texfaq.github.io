@@ -3,7 +3,7 @@
 {%- assign prevpage = "" -%}
 {%- assign nextpage = "" -%}
 
-{%- if page.category -%}
+{%- if page.category != "" -%}
 
 
 {%- assign xrawcats = "" -%}
@@ -35,7 +35,7 @@
   {%- assign xsorted = site.pages | sort: 'title' -%}
 {%- for page in xsorted -%}
     {%- if page.category contains ct -%}
-      {%- assign prevpage temppage -%}
+      {%- assign prevpage = temppage -%}
     {%- endif -%}
   {%- endfor %}
 {% endfor -%}
