@@ -46,7 +46,7 @@
 {%- assign xrawcats = "" -%}
 {%- for page in site.pages -%}
 {%- assign xtcats = page.category | join:'|' | append:'|' -%}
-{%- assign xrawcats = rawcats | append:tcats -%}
+{%- assign xrawcats = xrawcats | append:xtcats -%}
 {%- endfor -%}
 
 {%- assign xrawcats = xrawcats | split:'|' | sort -%}
@@ -81,7 +81,7 @@
 
 {%- endif -%}
 
-		<p>[2[ {{ prevpage }} ]][ {{ nextpage }} ]</p>
+		<p>[3[ {{ prevpage }} ]][ {{ nextpage }} ]</p>
 
 	
         {% if site.show_downloads %}
