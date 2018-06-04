@@ -71,7 +71,7 @@
 {% for ct in xcats %}
   {%- assign xsorted = site.pages | sort: 'title' -%}
 {%- for page in xsorted -%}
-	{%- if page.category contains ct -%}
+	{%- if page.category == ct -%}
 	<p>(( {{ page.path }} ))</p>
       {%- assign prevpage = temppage -%}
     {%- endif -%}
