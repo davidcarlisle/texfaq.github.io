@@ -37,9 +37,9 @@
       {%- assign nextpage "?" -%}
     {%- endif -%}
     {%- if nextpage == "?" -%}
-      {%- assign nextpage page.page.url -%}
+      {%- assign nextpage page.url -%}
     {%- endif -%}
-    {%- assign temppage page.page.url -%}
+    {%- assign temppage page.url -%}
   {%- endfor %}
 {% endfor -%}
 
