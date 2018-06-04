@@ -1,11 +1,11 @@
 
-{%- assign temppage = ""- %}
-{%- assign prevpage = ""- %}
-{%- assign nextpage = ""- %}
+{%- assign temppage = "" -%}
+{%- assign prevpage = "" -%}
+{%- assign nextpage = "" -%}
 
 {%- if page.category -%}
 
-{%- assign rawcats = ""- %}
+{%- assign rawcats = "" -%}
 {%- for page in site.pages -%}
 {%- assign tcats = page.category | join:'|' | append:'|' -%}
 {%- assign rawcats = rawcats | append:tcats -%}
@@ -37,9 +37,9 @@
       {%- assign nextpage "?" -%}
     {%- endif -%}
     {%- if nextpage == "?" -%}
-      {%- assign nextpage page.page.url | relative -%}
+      {%- assign nextpage page.page.url -%}
     {%- endif -%}
-    {%- assign temppage page.page.url | relative -%}
+    {%- assign temppage page.page.url -%}
   {%- endfor %}
 {% endfor -%}
 
