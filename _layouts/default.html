@@ -37,6 +37,7 @@
     {%- if page.category contains ct -%}
       {%- assign prevpage = temppage -%}
     {%- endif -%}
+    {%- assign temppage = page.title  -%}
   {%- endfor %}
 {% endfor -%}
 
@@ -77,6 +78,7 @@
 	<h3><a href="index#{{ page.category }}">{{ page.category | capitalize }}</a></h3>
 	{% endif %}
 
+		<p>[ {{ prevpage | markdownify }} ][ {{ nextpage | markdownify }} ]</p>
 
 	
         {% if site.show_downloads %}
