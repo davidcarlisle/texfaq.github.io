@@ -15,16 +15,16 @@ It's easier to add information than it is to decide that information is no
 longer needed: questions are therefore not deleted but are "retired" (removed
 from the main index) over time.
 
-The source code [is on github](https://github.com/texfaq/texfaq.github.io/),
+The source code [is on GitHub](https://github.com/texfaq/texfaq.github.io/),
 please see [CONTRIBUTING](CONTRIBUTING) and [LICENSE](LICENSE) for details.
 
 ## Impressum
 
-> Joseph Wright
-> 2, Dowthorpe End
-> Earls Barton
-> Northampton
-> NN6 0NH
+> Joseph Wright<br />
+> 2, Dowthorpe End<br />
+> Earls Barton<br />
+> Northampton<br />
+> NN6 0NH<br />
 > United Kingdom
 >
 > joseph.wright@morningstar2.co.uk

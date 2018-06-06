@@ -5,7 +5,7 @@ permalink: /authors
 
 The following people are _known_ to have contributed to the FAQ:
 
-- *Robin Fairbairns*
+- **Robin Fairbairns**
 - William Adams
 - Donald Arseneau
 - Rosemary Bailey
@@ -15,6 +15,7 @@ The following people are _known_ to have contributed to the FAQ:
 - Charles Cameron
 - David Carlisle
 - François Charette
+- Paulo Cereda
 - Damian Cugley
 - Martin Garrod
 - Michael Dewey
