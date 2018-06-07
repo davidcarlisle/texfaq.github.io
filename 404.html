@@ -21,7 +21,8 @@ permalink: /404.html
 <script>
   // lowercase the URL except for /FAQ-
   var lc = document.location.href.toLowerCase()
-  var newurl=lc.replace('/(faq-)',String.prototype.toUpperCase.apply)
+  var newurl=lc.replace('/(faq-|contributing|licence|changelog)',
+                          Function.prototype.call.bind(String.prototype.toUpperCase))
   if(newurl !==document.location.href) window.location.replace(newurl);
 </script>
 </head>
