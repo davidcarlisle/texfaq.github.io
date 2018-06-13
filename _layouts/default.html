@@ -43,10 +43,14 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-	<div>
-zz8954
-	  <div id="sch">
-<p>abcde</p>
+
+	
+	{% if page.category %}
+	<h3><a href="index#{{ page.category }}">{{ page.category | capitalize }}</a></h3>
+	{% endif %}
+
+	<div id="sch">
+
 <script>
   (function() {
     var cx = '012439869432470945129:bzzhlwymcqe';
@@ -60,11 +64,6 @@ zz8954
 </script>
 <gcse:search/>
 	    </div>
-	</div>
-	
-	{% if page.category %}
-	<h3><a href="index#{{ page.category }}">{{ page.category | capitalize }}</a></h3>
-	{% endif %}
 
         
 	
