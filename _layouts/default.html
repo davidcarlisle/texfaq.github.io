@@ -32,10 +32,10 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
 	<div>
-zz
+zz89
 	  <div>
-	    <gcse:search></gcse:search>
-	    <script>
+
+<script>
   (function() {
     var cx = '012439869432470945129:bzzhlwymcqe';
     var gcse = document.createElement('script');
@@ -46,7 +46,7 @@ zz
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-
+<gcse:searchbox></gcse:searchbox>
 	    </div>
 	</div>
 	
@@ -65,7 +65,7 @@ zz
         {% endif %}
       </header>
       <section>
-
+<div><gcse:searchresults></gcse:searchresults></div>
       {{ content }}
 
       </section>
